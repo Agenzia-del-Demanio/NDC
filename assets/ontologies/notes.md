@@ -1,11 +1,11 @@
 # Ontologie
 
-Le ontologie descrivono il patrimonio informativo dell'ente relativamente 
+Le ontologie descrivono il patrimonio informativo dell'ente relativamente
 al proprio dominio di competenza.
 
 Per le ontologie si utilizzano directory versionate.
 
-Le ontologie sono pubblicate in formato RDF/Turtle (media type text/turtle) 
+Le ontologie sono pubblicate in formato RDF/Turtle (media type text/turtle)
 e l'estensione del file è `.ttl`.
 
 Opzionalmente possono essere forniti anche formati OWL (`.owl`) e Notation3 (`.graphol`).

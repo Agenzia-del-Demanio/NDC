@@ -49,7 +49,7 @@ I file presenti in questo repository sono organizzati secondo la seguente strutt
 │   └── fix-csv-separator.py     # Verifica separatori CSV
 │
 ├── .github/workflows/           # CI/CD con GitHub Actions
-│   └── schemas/ 
+│   └── schemas/
 │       └── cd.yaml
 │       └── main.yaml
 │

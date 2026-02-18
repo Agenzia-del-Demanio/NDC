@@ -2,7 +2,7 @@
 
 I vocabolari controllati sono pubblicati in formato RDF/Turtle (media type text/turtle) e l'estensione del file è `.ttl`.
 
-I file CSV e JSON sono generati automaticamente a partire dai file TTL usando 
+I file CSV e JSON sono generati automaticamente a partire dai file TTL usando
 lo script `scripts/create_csv_json.py`.
 
 ## Struttura Directory

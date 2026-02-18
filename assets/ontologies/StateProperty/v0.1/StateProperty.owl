@@ -23,321 +23,320 @@ Ontology: <https://w3id.org/italia/real-estate/onto/StateProperty/>
 
 AnnotationProperty: rdfs:label
 
-    
+
 Datatype: rdf:PlainLiteral
 
-    
+
 Datatype: xsd:boolean
 
-    
+
 Datatype: xsd:string
 
-    
+
 ObjectProperty: CLV:hasSpatialCoverage
 
-    
+
 ObjectProperty: StateProperty:haCategoriaBeneDelloStato
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha categoria bene dello Stato"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:SchedaDiCatalogazione
-    
-    Range: 
+
+    Range:
         StateProperty:CategoriaBeneDelloStato
-    
-    
+
+
 ObjectProperty: StateProperty:haCategoriaPatrimoniale
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha categoria patrimoniale"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:StatoDelBeneImmobileDelloStato
-    
-    Range: 
+
+    Range:
         StateProperty:TipoCategoriaPatrimonialeImmobile
-    
-    
+
+
 ObjectProperty: StateProperty:haCodiceSEC
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha codice SEC"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:BeneImmobileDelloStato
-    
-    Range: 
+
+    Range:
         StateProperty:CodiceMEFRaccordoSECBeneImmobile
-    
-    
+
+
 ObjectProperty: StateProperty:haDestinazioneDiUso
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha destinazione di uso"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:StatoDelBeneImmobileDelloStato
-    
-    Range: 
+
+    Range:
         StateProperty:TipoDestinazioneDiUsoImmobile
-    
-    
+
+
 ObjectProperty: StateProperty:haSchedaDiCatalogazione
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha scheda di catalogazione"@it
-    
-    Domain: 
+
+    Domain:
         StateProperty:BeneImmobileDelloStato
-    
-    Range: 
+
+    Range:
         StateProperty:SchedaDiCatalogazione
-    
-    
+
+
 ObjectProperty: StateProperty:haStatoDelBeneImmobileDelloStato
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha stato del bene immobile dello Stato"@it
-    
-    Characteristics: 
+
+    Characteristics:
         InverseFunctional
-    
-    Domain: 
+
+    Domain:
         StateProperty:BeneImmobileDelloStato
-    
-    Range: 
+
+    Range:
         StateProperty:StatoDelBeneImmobileDelloStato
-    
-    
+
+
 ObjectProperty: StateProperty:haStatoDiAgibilità
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha stato di agibilità"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:StatoDelBeneImmobileDelloStato
-    
-    Range: 
+
+    Range:
         StateProperty:TipoStatoDiAgibilitàImmobile
-    
-    
+
+
 ObjectProperty: StateProperty:haStatoDiOccupazione
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha stato di occupazione"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:StatoDelBeneImmobileDelloStato
-    
-    Range: 
+
+    Range:
         StateProperty:TipoStatoDiOccupazioneImmobile
-    
-    
+
+
 ObjectProperty: StateProperty:haTipoDiAccesso
 
-    Annotations: 
+    Annotations:
         rdfs:label "ha tipo di accesso"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:StatoDelBeneImmobileDelloStato
-    
-    Range: 
+
+    Range:
         StateProperty:TipoDiAccessoImmobile
-    
-    
+
+
 ObjectProperty: StateProperty:riferisceProvincia
 
-    Annotations: 
+    Annotations:
         rdfs:label "riferisce provincia"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:SchedaDiCatalogazione
-    
-    Range: 
+
+    Range:
         CLV:Province
-    
-    
+
+
 DataProperty: StateProperty:avvisoSchedaProvvisoria
 
-    Annotations: 
+    Annotations:
         rdfs:label "avviso scheda provvisoria"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:SchedaDiCatalogazione
-    
-    Range: 
+
+    Range:
         xsd:boolean
-    
-    
+
+
 DataProperty: StateProperty:codiceSchedaCatalogazione
 
-    Annotations: 
+    Annotations:
         rdfs:label "codice scheda catalogazione"@it
-    
-    Characteristics: 
+
+    Characteristics:
         Functional
-    
-    Domain: 
+
+    Domain:
         StateProperty:SchedaDiCatalogazione
-    
-    Range: 
+
+    Range:
         xsd:string
-    
-    
+
+
 Class: CLV:Identifier
 
-    
+
 Class: CLV:Province
 
-    
+
 Class: StateProperty:Area
 
-    Annotations: 
+    Annotations:
         rdfs:label "Area"@it
-    
-    DisjointWith: 
+
+    DisjointWith:
         StateProperty:Fabbricato
-    
-    
+
+
 Class: StateProperty:BeneImmobileDelloStato
 
-    Annotations: 
+    Annotations:
         rdfs:label "Bene immobile dello Stato"@it
-    
-    SubClassOf: 
+
+    SubClassOf:
         StateProperty:Cespite,
         CLV:hasSpatialCoverage some owl:Thing
-    
-    
+
+
 Class: StateProperty:CategoriaBeneDelloStato
 
-    Annotations: 
+    Annotations:
         rdfs:label "Categoria bene dello Stato"@it
-    
-    
+
+
 Class: StateProperty:Cespite
 
-    Annotations: 
+    Annotations:
         rdfs:label "Cespite"@it
-    
-    
+
+
 Class: StateProperty:CodiceMEFRaccordoSEC
 
-    Annotations: 
+    Annotations:
         rdfs:label "Codice MEF raccordo SEC"@it
-    
-    SubClassOf: 
+
+    SubClassOf:
         CLV:Identifier
-    
-    
+
+
 Class: StateProperty:CodiceMEFRaccordoSECBeneImmobile
 
-    Annotations: 
+    Annotations:
         rdfs:label "Codice MEF raccordo SEC bene immobile"@it
-    
-    SubClassOf: 
+
+    SubClassOf:
         StateProperty:CodiceMEFRaccordoSEC
-    
-    
+
+
 Class: StateProperty:Fabbricato
 
-    Annotations: 
+    Annotations:
         rdfs:label "Fabbricato"@it
-    
-    DisjointWith: 
+
+    DisjointWith:
         StateProperty:Area
-    
-    
+
+
 Class: StateProperty:SchedaDiCatalogazione
 
-    Annotations: 
+    Annotations:
         rdfs:label "Scheda di catalogazione"@it
-    
-    EquivalentTo: 
+
+    EquivalentTo:
         StateProperty:haCategoriaBeneDelloStato some owl:Thing,
         StateProperty:riferisceProvincia some owl:Thing
-    
-    
+
+
 Class: StateProperty:StatoDelBeneImmobileDelloStato
 
-    Annotations: 
+    Annotations:
         rdfs:label "Stato del Bene immobile dello Stato"@it
-    
-    EquivalentTo: 
+
+    EquivalentTo:
          inverse (StateProperty:haStatoDelBeneImmobileDelloStato) some owl:Thing
-    
-    SubClassOf: 
+
+    SubClassOf:
         TI:TimeIndexedEvent
-    
-    
+
+
 Class: StateProperty:TipoCategoriaPatrimonialeImmobile
 
-    Annotations: 
+    Annotations:
         rdfs:label "Tipo categoria patrimoniale immobile"@it
-    
-    
+
+
 Class: StateProperty:TipoDestinazioneDiUsoImmobile
 
-    Annotations: 
+    Annotations:
         rdfs:label "Tipo destinazione di uso immobile"@it
-    
-    
+
+
 Class: StateProperty:TipoDiAccessoImmobile
 
-    Annotations: 
+    Annotations:
         rdfs:label "Tipo di accesso immobile"@it
-    
-    
+
+
 Class: StateProperty:TipoStatoDiAgibilitàImmobile
 
-    Annotations: 
+    Annotations:
         rdfs:label "Tipo stato di agibilità immobile"@it
-    
-    
+
+
 Class: StateProperty:TipoStatoDiOccupazioneImmobile
 
-    Annotations: 
+    Annotations:
         rdfs:label "Tipo stato di occupazione immobile"@it
-    
-    
+
+
 Class: TI:TimeIndexedEvent
 
-    
+
 Class: owl:Thing
 
-    
+
 Class: StateProperty:Area or StateProperty:Fabbricato
 
-    SubClassOf: 
+    SubClassOf:
         StateProperty:BeneImmobileDelloStato
-    
-    
+
