@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/AGIB",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/AGIB",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"
@@ -12,7 +12,7 @@
     "label_en": "HABITABLE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/DEGRAD",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/DEGRAD",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"
@@ -24,7 +24,7 @@
     "label_en": "DETERIORATED"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/DEMOL",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/DEMOL",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"
@@ -36,7 +36,7 @@
     "label_en": "TO BE DEMOLISHED"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/INAG",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/INAG",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"
@@ -48,7 +48,7 @@
     "label_en": "UNINHABITABLE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/NUOVA",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/NUOVA",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"
@@ -60,7 +60,7 @@
     "label_it": "NUOVA COSTRUZIONE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/PARZ",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/PARZ",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"
@@ -72,7 +72,7 @@
     "label_it": "PARZIALMENTE AGIBILE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/RISTR",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/RISTR",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"
@@ -84,7 +84,7 @@
     "label_en": "UNDER RENOVATION"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/SISM",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/SISM",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"
@@ -96,7 +96,7 @@
     "label_en": "UNINHABITABLE DUE TO SEISMIC EVENTS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoDiAgibilitaImmobile/VERIF",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoStatoAgibilitàImmobile/VERIF",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoStatoDiAgibilitaImmobile"

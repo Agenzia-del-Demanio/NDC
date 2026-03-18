@@ -12,37 +12,11 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-### Annotations
 
-<https://w3id.org/italia/data/contact-point/ISTAT-NDC> a dcatapit:Organization,
-        vcard:Kind,
-        vcard:Organization ;
-    vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
-    vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
 
-<https://w3id.org/italia/data/public-organization/agd> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "agd" ;
-    foaf:name "Agenzia del Demanio"@it,
-        "State Property Agency"@en .
-
-<https://w3id.org/italia/data/public-organization/ISTAT> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "ISTAT" ;
-    foaf:name "Istituto Nazionale di Statistica"@it,
-        "Italian National Institute of Statistics"@en .
-
-<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "PCM-1RSIZZ" ;
-    foaf:name "Digital Transformation Department of the Presidency of the Council of Ministers"@en,
-        "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it .
-
-<https://w3id.org/italia/data/resource/standard/SKOS> a dcatapit:Standard,
-        dct:Standard ;
-    dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
-    dct:identifier "SKOS" ;
-    dct:title "Simple Knowledge Organization System - SKOS" .
+#################################################################
+#    metadata
+#################################################################
 
 <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> a adms:Asset,
         dcatapit:Dataset,
@@ -71,129 +45,77 @@
         "The intended use represents the functional classification of properties managed by the State Property Agency, indicating the main or planned type of use for each asset. This classification allows for the identification of the actual or potential use of spaces, distinguishing between residential, commercial, institutional, cultural, or other uses, in accordance with urban planning regulations and public purposes."@en ;
     dct:identifier "",
         "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso" ;
-    dct:issued "2026-02-18"^^xsd:date ;
+    dct:issued "2026-03-18"^^xsd:date ;
     dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
-    dct:modified "2026-02-18"^^xsd:date ;
+    dct:modified "2026-03-18"^^xsd:date ;
     dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
     dct:rightsHolder <https://w3id.org/italia/data/public-organization/agd> ;
     dct:subject <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
     dct:title "Controlled Vocabulary for Intended Use"@en,
         "Vocabolario Controllato delle Destinazioni d'Uso"@it ;
     dct:type <http://purl.org/adms/assettype/CodeList> ;
+	dct:temporal "Dal 2026" ;
+	dct:subject <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
     ndc:keyConcept "destinazione-di-uso" ;
-    skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/AGR>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/COM>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/CUL>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/DEP>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IND>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IST>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/RES>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SAN>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SCO>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/UFF> ;
+    skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/AGR>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/COM>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/CUL>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/DEP>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/IND>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/IST>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/RES>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/SAN>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/SCO>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/UFF> ;
     skos:notation "Controlled Vocabulary for Intended Use"@en,
         "Vocabolario Controllato delle Destinazioni d'Uso"@it ;
     xkos:numberOfLevels "1" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/AGR> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "AGRICOLO"@it,
-        "AGRICULTURAL"@en ;
-    skos:definition "Immobile destinato ad attività agricole, zootecniche o agrituristiche."@it,
-        "Property intended for agricultural, livestock or agritourism activities."@en ;
-    dct:identifier "AGR" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "AGR" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/COM> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "COMMERCIAL"@en,
-        "COMMERCIALE"@it ;
-    skos:definition "Immobile destinato ad attività commerciali, di vendita al dettaglio o all'ingrosso."@it,
-        "Property intended for commercial activities, retail or wholesale."@en ;
-    dct:identifier "COM" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "COM" .
+#################################################################
+#    annotations
+#################################################################
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/CUL> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "CULTURAL"@en,
-        "CULTURALE"@it ;
-    skos:definition "Immobile destinato ad attività culturali, museali, bibliotecarie o di spettacolo."@it,
-        "Property intended for cultural, museum, library or entertainment activities."@en ;
-    dct:identifier "CUL" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "CUL" .
+<https://w3id.org/italia/data/contact-point/ISTAT-NDC> a dcatapit:Organization,
+        vcard:Kind,
+        vcard:Organization ;
+    vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
+    vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/DEP> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "DEPOSITO/MAGAZZINO"@it,
-        "STORAGE/WAREHOUSE"@en ;
-    skos:definition "Immobile destinato allo stoccaggio, deposito merci o logistica."@it,
-        "Property intended for storage, goods warehousing or logistics."@en ;
-    dct:identifier "DEP" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "DEP" .
+<https://w3id.org/italia/data/public-organization/agd> a dcatapit:Agent,
+        foaf:Agent ;
+    dct:identifier "agd" ;
+    foaf:name "Agenzia del Demanio"@it,
+        "State Property Agency"@en .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IND> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "INDUSTRIAL"@en,
-        "INDUSTRIALE"@it ;
-    skos:definition "Immobile destinato ad attività produttive, manifatturiere o artigianali."@it,
-        "Property intended for production, manufacturing or craft activities."@en ;
-    dct:identifier "IND" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "IND" .
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent,
+        foaf:Agent ;
+    dct:identifier "PCM-1RSIZZ" ;
+    foaf:name "Digital Transformation Department of the Presidency of the Council of Ministers"@en,
+        "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IST> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "INSTITUTIONAL"@en,
-        "ISTITUZIONALE"@it ;
-    skos:definition "Immobile destinato a funzioni pubbliche, amministrative o di servizio pubblico."@it,
-        "Property intended for public, administrative or public service functions."@en ;
-    dct:identifier "IST" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "IST" .
+<https://w3id.org/italia/data/resource/standard/SKOS> a dcatapit:Standard,
+        dct:Standard ;
+    dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
+    dct:identifier "SKOS" ;
+    dct:title "Simple Knowledge Organization System - SKOS" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/RES> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "RESIDENTIAL"@en,
-        "RESIDENZIALE"@it ;
-    skos:definition "Immobile destinato ad abitazione civile e a servizi connessi alla residenza."@it,
-        "Property intended for residential housing and related services."@en ;
-    dct:identifier "RES" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "RES" .
+<https://w3id.org/italia/data/standard/SKOS>
+   a dcatapit:Standard , dct:Standard ;
+   dct:identifier "SKOS" ;
+   foaf:name "Simple Knowledge Organization System (SKOS)"@en ;
+   dct:title "Simple Knowledge Organization System - SKOS" ;
+   dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" .
+   
+<https://w3id.org/italia/data/public-organization/ISTAT>
+   a dcatapit:Agent, foaf:Agent ;
+   dct:identifier "ISTAT" ;
+   foaf:name "Istituto Nazionale di Statistica"@it , "Italian National Institute of Statistics"@en .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SAN> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "HEALTHCARE"@en,
-        "SANITARIO"@it ;
-    skos:definition "Immobile destinato a strutture sanitarie, assistenziali o socio-sanitarie."@it,
-        "Property intended for healthcare, care or social-health facilities."@en ;
-    dct:identifier "SAN" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "SAN" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SCO> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "EDUCATIONAL"@en,
-        "SCOLASTICO"@it ;
-    skos:definition "Immobile destinato a istruzione, formazione e attività educative."@it,
-        "Property intended for education, training and educational activities."@en ;
-    dct:identifier "SCO" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "SCO" .
-
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/UFF> a skos:Concept,
-        :TipoDestinazioneDiUsoImmobile ;
-    skos:prefLabel "OFFICES"@en,
-        "UFFICI"@it ;
-    skos:definition "Immobile destinato ad attività amministrative, direzionali e professionali."@it,
-        "Property intended for administrative, management and professional activities."@en ;
-    dct:identifier "UFF" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
-    skos:notation "UFF" .
+#################################################################
+#    distributions
+#################################################################
 
 <https://w3id.org/italia/real-estate/data/StateProperty/distribution/destinazione-di-uso-CSV> a dcatapit:Distribution ;
     dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/destinazione-di-uso/latest> ;
@@ -235,4 +157,109 @@
     dct:title "Distribuzione XLSX del vocabolario controllato Vocabolario Controllato delle Destinazioni d'Uso"@it,
         "XLSX distribution of the Controlled Vocabulary for Intended Use"@en .
 
-### Serialized using the ttlser deterministic serializer v1.2.0
+
+#################################################################
+#    vocabulary body
+#################################################################
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/AGR> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "AGRICOLO"@it,
+        "AGRICULTURAL"@en ;
+    skos:definition "Immobile destinato ad attività agricole, zootecniche o agrituristiche."@it,
+        "Property intended for agricultural, livestock or agritourism activities."@en ;
+    dct:identifier "AGR" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "AGR" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/COM> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "COMMERCIAL"@en,
+        "COMMERCIALE"@it ;
+    skos:definition "Immobile destinato ad attività commerciali, di vendita al dettaglio o all'ingrosso."@it,
+        "Property intended for commercial activities, retail or wholesale."@en ;
+    dct:identifier "COM" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "COM" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/CUL> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "CULTURAL"@en,
+        "CULTURALE"@it ;
+    skos:definition "Immobile destinato ad attività culturali, museali, bibliotecarie o di spettacolo."@it,
+        "Property intended for cultural, museum, library or entertainment activities."@en ;
+    dct:identifier "CUL" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "CUL" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/DEP> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "DEPOSITO/MAGAZZINO"@it,
+        "STORAGE/WAREHOUSE"@en ;
+    skos:definition "Immobile destinato allo stoccaggio, deposito merci o logistica."@it,
+        "Property intended for storage, goods warehousing or logistics."@en ;
+    dct:identifier "DEP" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "DEP" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/IND> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "INDUSTRIAL"@en,
+        "INDUSTRIALE"@it ;
+    skos:definition "Immobile destinato ad attività produttive, manifatturiere o artigianali."@it,
+        "Property intended for production, manufacturing or craft activities."@en ;
+    dct:identifier "IND" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "IND" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/IST> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "INSTITUTIONAL"@en,
+        "ISTITUZIONALE"@it ;
+    skos:definition "Immobile destinato a funzioni pubbliche, amministrative o di servizio pubblico."@it,
+        "Property intended for public, administrative or public service functions."@en ;
+    dct:identifier "IST" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "IST" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/RES> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "RESIDENTIAL"@en,
+        "RESIDENZIALE"@it ;
+    skos:definition "Immobile destinato ad abitazione civile e a servizi connessi alla residenza."@it,
+        "Property intended for residential housing and related services."@en ;
+    dct:identifier "RES" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "RES" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/SAN> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "HEALTHCARE"@en,
+        "SANITARIO"@it ;
+    skos:definition "Immobile destinato a strutture sanitarie, assistenziali o socio-sanitarie."@it,
+        "Property intended for healthcare, care or social-health facilities."@en ;
+    dct:identifier "SAN" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "SAN" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/SCO> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "EDUCATIONAL"@en,
+        "SCOLASTICO"@it ;
+    skos:definition "Immobile destinato a istruzione, formazione e attività educative."@it,
+        "Property intended for education, training and educational activities."@en ;
+    dct:identifier "SCO" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "SCO" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/UFF> a skos:Concept,
+        :TipoDestinazioneDiUsoImmobile ;
+    skos:prefLabel "OFFICES"@en,
+        "UFFICI"@it ;
+    skos:definition "Immobile destinato ad attività amministrative, direzionali e professionali."@it,
+        "Property intended for administrative, management and professional activities."@en ;
+    dct:identifier "UFF" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/destinazione-di-uso> ;
+    skos:notation "UFF" .
+
+

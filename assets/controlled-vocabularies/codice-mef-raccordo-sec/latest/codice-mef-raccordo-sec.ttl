@@ -12,37 +12,11 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-### Annotations
 
-<https://w3id.org/italia/data/contact-point/ISTAT-NDC> a dcatapit:Organization,
-        vcard:Kind,
-        vcard:Organization ;
-    vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
-    vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
 
-<https://w3id.org/italia/data/public-organization/agd> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "agd" ;
-    foaf:name "Agenzia del Demanio"@it,
-        "State Property Agency"@en .
-
-<https://w3id.org/italia/data/public-organization/ISTAT> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "ISTAT" ;
-    foaf:name "Istituto Nazionale di Statistica - ISTAT"@it,
-        "Italian National Institute of Statistics - ISTAT"@en .
-
-<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "PCM-1RSIZZ" ;
-    foaf:name "Digital Transformation Department of the Presidency of the Council of Ministers"@en,
-        "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it .
-
-<https://w3id.org/italia/data/resource/standard/SKOS> a dcatapit:Standard,
-        dct:Standard ;
-    dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
-    dct:identifier "SKOS" ;
-    dct:title "Simple Knowledge Organization System - SKOS" .
+#################################################################
+#    metadata
+#################################################################
 
 <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile> a adms:Asset,
         dcatapit:Dataset,
@@ -76,14 +50,16 @@
     dct:description "Questa risorsa raccoglie un sottoinsieme dei codici meccanografici definiti dal Ministero dell’Economia e delle Finanze (MEF) nell’ambito della classificazione SEC ’95 (Sistema europeo dei conti), selezionati per rappresentare le categorie relative ai beni prodotti e non prodotti di appartenenza all'Agenzia del Demanio. La risorsa consente una descrizione univoca e standardizzata delle entità patrimoniali, come da Circolare MEF – Ragioneria Generale dello Stato n. 13 del 3 aprile 2003, e successive modifiche, e relativo allegato n.1 Tabella di corrispondenza tra poste patrimoniali nella nuova classificazione SEC '95 e relativa codifica meccanografica. "@it,
         "This resource collects a subset of the mechanographic codes defined by the Ministry of Economy and Finance (MEF) within the SEC ’95 classification (European System of Accounts), selected to represent the categories related to produced and non-produced assets under the responsibility of the State Property Agency. The resource enables a unique and standardized description of asset entities, in accordance with MEF – State General Accounting Department Circular No. 13 of 3 April 2003, as subsequently amended, and its Annex No. 1, Table of correspondence between balance sheet items in the new SEC ’95 classification and the related mechanographic coding. "@en ;
     dct:identifier "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile" ;
-    dct:issued "2026-03-02"^^xsd:date ;
+    dct:issued "2026-03-18"^^xsd:date ;
     dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
-    dct:modified "2026-03-02"^^xsd:date ;
+    dct:modified "2026-03-18"^^xsd:date ;
     dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
     dct:rightsHolder <https://w3id.org/italia/data/public-organization/agd> ;
     dct:title "Controlled Vocabulary of MEF SEC 95 Codes for State Property Assets"@en,
         "Vocabolario Controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it ;
     dct:type <http://purl.org/adms/assettype/CodeList> ;
+	dct:temporal "Dal 2026" ;
+	dct:subject <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
     ndc:keyConcept "Codice_MEF" ;
     skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BA>,
         <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/CA>,
@@ -92,6 +68,91 @@
     skos:notation "Controlled Vocabulary of MEF SEC 95 Codes for State Property Assets"@en,
         "Vocabolario Controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it ;
     xkos:numberOfLevels "5" .
+
+
+#################################################################
+#    annotations
+#################################################################
+
+<https://w3id.org/italia/data/contact-point/ISTAT-NDC> a dcatapit:Organization,
+        vcard:Kind,
+        vcard:Organization ;
+    vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
+    vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
+
+<https://w3id.org/italia/data/public-organization/agd> a dcatapit:Agent,
+        foaf:Agent ;
+    dct:identifier "agd" ;
+    foaf:name "Agenzia del Demanio"@it,
+        "State Property Agency"@en .
+
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent,
+        foaf:Agent ;
+    dct:identifier "PCM-1RSIZZ" ;
+    foaf:name "Digital Transformation Department of the Presidency of the Council of Ministers"@en,
+        "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it .
+
+<https://w3id.org/italia/data/standard/SKOS>
+   a dcatapit:Standard , dct:Standard ;
+   dct:identifier "SKOS" ;
+   foaf:name "Simple Knowledge Organization System (SKOS)"@en ;
+   dct:title "Simple Knowledge Organization System - SKOS" ;
+   dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" .
+   
+<https://w3id.org/italia/data/public-organization/ISTAT>
+   a dcatapit:Agent, foaf:Agent ;
+   dct:identifier "ISTAT" ;
+   foaf:name "Istituto Nazionale di Statistica"@it , "Italian National Institute of Statistics"@en .
+
+
+#################################################################
+#    distributions
+#################################################################
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/codice-mef-raccordo-sec-CSV> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/codice-mef-raccordo-sec> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/codice-mef-raccordo-sec.csv> ;
+    dct:description "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
+        "This is the distribution in CSV of the Linked Open Dataset of the Asset controlled vocabulary"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "CSV distribution of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en,
+        "Distribuzione CSV del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/codice-mef-raccordo-sec-JSON-LD> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/latest> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/latest/codice-mef-raccordo-sec.json> ;
+    dct:description "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
+        "This is the distribution in JSON-LD of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione JSON-LD del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
+        "JSON-LD distribution of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/codice-mef-raccordo-sec-RDF-Turtle> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/codice-mef-raccordo-sec> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/codice-mef-raccordo-sec.ttl> ;
+    dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
+        "This is the distribution in RDF/turtle of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione RDF/Turtle del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
+        "RDF/Turtle distribution of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en .
+
+<https://w3id.org/italia/real-estate/data/StateProperty/distribution/codice-mef-raccordo-sec-XLSX> a dcatapit:Distribution ;
+    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/codice-mef-raccordo-sec> ;
+    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/codice-mef-raccordo-sec.xlsx> ;
+    dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
+        "This is the distribution in XLSX of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en ;
+    dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
+    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
+    dct:title "Distribuzione XLSX del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
+        "XLSX distribution of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en .
+
+
+#################################################################
+#    vocabulary body
+#################################################################
 
 <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/CodiceMEFRaccordoSECImmobile/BA> a skos:Concept ;
     skos:prefLabel "ATTIVITÀ NON FINANZIARIE PRODOTTE"@it,
@@ -686,45 +747,3 @@ NON PRODOTTE"""@it,
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/codice-mef-raccordo-sec> ;
     skos:isTopConcept "ND" ;
     skos:notation "ND" .
-
-<https://w3id.org/italia/real-estate/data/StateProperty/distribution/codice-mef-raccordo-sec-CSV> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/codice-mef-raccordo-sec> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/codice-mef-raccordo-sec.csv> ;
-    dct:description "Questa è la distribuzione CSV del dataset Linked Open Data del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
-        "This is the distribution in CSV of the Linked Open Dataset of the Asset controlled vocabulary"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "CSV distribution of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en,
-        "Distribuzione CSV del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it .
-
-<https://w3id.org/italia/real-estate/data/StateProperty/distribution/codice-mef-raccordo-sec-JSON-LD> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/latest> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/latest/codice-mef-raccordo-sec.json> ;
-    dct:description "Questa è la distribuzione JSON-LD del dataset Linked Open Data del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
-        "This is the distribution in JSON-LD of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/JSON_LD> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione JSON-LD del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
-        "JSON-LD distribution of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en .
-
-<https://w3id.org/italia/real-estate/data/StateProperty/distribution/codice-mef-raccordo-sec-RDF-Turtle> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/codice-mef-raccordo-sec> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/codice-mef-raccordo-sec.ttl> ;
-    dct:description "Questa è la distribuzione RDF/Turtle del dataset Linked Open Data del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
-        "This is the distribution in RDF/turtle of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione RDF/Turtle del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
-        "RDF/Turtle distribution of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en .
-
-<https://w3id.org/italia/real-estate/data/StateProperty/distribution/codice-mef-raccordo-sec-XLSX> a dcatapit:Distribution ;
-    dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/codice-mef-raccordo-sec> ;
-    dcat:downloadURL <https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/controlled-vocabularies/codice-mef-raccordo-sec/codice-mef-raccordo-sec.xlsx> ;
-    dct:description "Questa è la distribuzione XLSX del dataset Linked Open Data del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
-        "This is the distribution in XLSX of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en ;
-    dct:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
-    dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
-    dct:title "Distribuzione XLSX del vocabolario controllato dei Codici MEF SEC 95 relativi ai beni del Demanio"@it,
-        "XLSX distribution of MEF SEC 95 Codes for State Property Assets controlled vocabulary"@en .
-
-### Serialized using the ttlser deterministic serializer v1.2.0
