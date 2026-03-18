@@ -12,37 +12,12 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-### Annotations
+https://w3id.org/italia/real-estate/onto/StateProperty/TipoAccessoImmobile
 
-<https://w3id.org/italia/data/contact-point/ISTAT-NDC> a dcatapit:Organization,
-        vcard:Kind,
-        vcard:Organization ;
-    vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
-    vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
 
-<https://w3id.org/italia/data/public-organization/agd> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "agd" ;
-    foaf:name "Agenzia del Demanio"@it,
-        "State Property Agency"@en .
-
-<https://w3id.org/italia/data/public-organization/ISTAT> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "ISTAT" ;
-    foaf:name "Istituto Nazionale di Statistica"@it,
-        "Italian National Institute of Statistics"@en .
-
-<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent,
-        foaf:Agent ;
-    dct:identifier "PCM-1RSIZZ" ;
-    foaf:name "Digital Transformation Department of the Presidency of the Council of Ministers"@en,
-        "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it .
-
-<https://w3id.org/italia/data/resource/standard/SKOS> a dcatapit:Standard,
-        dct:Standard ;
-    dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
-    dct:identifier "SKOS" ;
-    dct:title "Simple Knowledge Organization System - SKOS" .
+#################################################################
+#    metadata
+#################################################################
 
 <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> a adms:Asset,
         dcatapit:Dataset,
@@ -70,140 +45,78 @@
     dct:description "Il tipo di accesso rappresenta la modalità con cui è consentito l'ingresso e l'utilizzo degli immobili gestiti dall'Agenzia del Demanio. Tale classificazione identifica il regime di accessibilità fisica e giuridica, distinguendo tra accesso pubblico, riservato, regolamentato o condizionato, in conformità alle normative sulla fruizione del patrimonio pubblico e alle esigenze di sicurezza, tutela e gestione degli spazi."@it,
         "The access type represents the manner in which entry and use of properties managed by the State Property Agency is permitted. This classification identifies the physical and legal accessibility regime, distinguishing between public, reserved, regulated or conditional access, in accordance with regulations on the use of public assets and security, protection and space management needs."@en ;
     dct:identifier "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso" ;
-    dct:issued "2026-02-18"^^xsd:date ;
+    dct:issued "2026-03-18"^^xsd:date ;
     dct:language <http://publications.europa.eu/resource/authority/language/ITA> ;
-    dct:modified "2026-02-18"^^xsd:date ;
+    dct:modified "2026-03-18"^^xsd:date ;
     dct:publisher <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
     dct:rightsHolder <https://w3id.org/italia/data/public-organization/agd> ;
     dct:subject <http://publications.europa.eu/resource/authority/data-theme/GOVE> ;
     dct:title "Controlled Vocabulary for Access Types"@en,
         "Vocabolario Controllato dei Tipi di Accesso"@it ;
     dct:type <http://purl.org/adms/assettype/CodeList> ;
+	dct:temporal "Dal 2026" ;
+	dct:subject <http://publications.europa.eu/resource/authority/data-theme/ECON> ;
     ndc:keyConcept "tipo-di-accesso" ;
-    skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/BARR>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/COND>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/EMERG>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/EVENTO>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/GUIDATO>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/ORARIO>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/PRIV>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/PUBB>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/REGOL>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/RISV>,
-        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/UNIV> ;
+    skos:hasTopConcept <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/BARR>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/COND>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/EMERG>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/EVENTO>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/GUIDATO>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/ORARIO>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/PRIV>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/PUBB>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/REGOL>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/RISV>,
+        <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/UNIV> ;
     skos:notation "Controlled Vocabulary for Access Types"@en,
         "Vocabolario Controllato dei Tipi di Accesso"@it ;
     xkos:numberOfLevels "1" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/BARR> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO CON BARRIERE"@it,
-        "BARRIER ACCESS"@en ;
-    skos:definition "Immobile con presenza di barriere architettoniche che limitano o condizionano l'accessibilità."@it,
-        "Property with architectural barriers that limit or condition accessibility."@en ;
-    dct:identifier "BARR" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "BARR" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/COND> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO CONDIZIONATO"@it,
-        "CONDITIONAL ACCESS"@en ;
-    skos:definition "Immobile accessibile solo in presenza di determinate condizioni temporali, eventi o circostanze specifiche."@it,
-        "Property accessible only in the presence of certain temporal conditions, events or specific circumstances."@en ;
-    dct:identifier "COND" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "COND" .
+#################################################################
+#    annotations
+#################################################################
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/EMERG> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO DI EMERGENZA"@it,
-        "EMERGENCY ACCESS"@en ;
-    skos:definition "Immobile con accesso consentito solo per motivi di emergenza, sicurezza o interventi urgenti."@it,
-        "Property with access allowed only for emergency reasons, security or urgent interventions."@en ;
-    dct:identifier "EMERG" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "EMERG" .
+<https://w3id.org/italia/data/contact-point/ISTAT-NDC> a dcatapit:Organization,
+        vcard:Kind,
+        vcard:Organization ;
+    vcard:fn "Segreteria Tecnica Istat - Progetto PNRR National Data Catalog" ;
+    vcard:hasEmail <mailto:ndc-segr-tec@istat.it> .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/EVENTO> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO PER EVENTI"@it,
-        "EVENT ACCESS"@en ;
-    skos:definition "Immobile accessibile solo in occasione di eventi, manifestazioni o iniziative specifiche."@it,
-        "Property accessible only on the occasion of specific events, demonstrations or initiatives."@en ;
-    dct:identifier "EVENTO" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "EVENTO" .
+<https://w3id.org/italia/data/public-organization/agd> a dcatapit:Agent,
+        foaf:Agent ;
+    dct:identifier "agd" ;
+    foaf:name "Agenzia del Demanio"@it,
+        "State Property Agency"@en .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/GUIDATO> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO GUIDATO"@it,
-        "GUIDED ACCESS"@en ;
-    skos:definition "Immobile accessibile esclusivamente tramite visite guidate o accompagnamento di personale autorizzato."@it,
-        "Property accessible exclusively through guided tours or accompaniment by authorized personnel."@en ;
-    dct:identifier "GUIDATO" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "GUIDATO" .
+<https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> a dcatapit:Agent,
+        foaf:Agent ;
+    dct:identifier "PCM-1RSIZZ" ;
+    foaf:name "Digital Transformation Department of the Presidency of the Council of Ministers"@en,
+        "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"@it .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/ORARIO> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO CON ORARIO"@it,
-        "SCHEDULED ACCESS"@en ;
-    skos:definition "Immobile accessibile solo in specifiche fasce orarie predeterminate e comunicate al pubblico."@it,
-        "Property accessible only during specific predetermined time slots communicated to the public."@en ;
-    dct:identifier "ORARIO" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "ORARIO" .
+<https://w3id.org/italia/data/resource/standard/SKOS> a dcatapit:Standard,
+        dct:Standard ;
+    dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" ;
+    dct:identifier "SKOS" ;
+    dct:title "Simple Knowledge Organization System - SKOS" .
+	
+<https://w3id.org/italia/data/standard/SKOS>
+   a dcatapit:Standard , dct:Standard ;
+   dct:identifier "SKOS" ;
+   foaf:name "Simple Knowledge Organization System (SKOS)"@en ;
+   dct:title "Simple Knowledge Organization System - SKOS" ;
+   dct:description "The Simple Knowledge Organization System (SKOS) is a common data model for sharing and linking knowledge organization systems via the Web" .
+   
+<https://w3id.org/italia/data/public-organization/ISTAT>
+   a dcatapit:Agent, foaf:Agent ;
+   dct:identifier "ISTAT" ;
+   foaf:name "Istituto Nazionale di Statistica"@it , "Italian National Institute of Statistics"@en .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/PRIV> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO PRIVATO"@it,
-        "PRIVATE ACCESS"@en ;
-    skos:definition "Immobile a uso esclusivo, non accessibile al pubblico, riservato a specifici utenti o funzioni."@it,
-        "Property for exclusive use, not accessible to the public, reserved for specific users or functions."@en ;
-    dct:identifier "PRIV" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "PRIV" .
 
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/PUBB> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO PUBBLICO"@it,
-        "PUBLIC ACCESS"@en ;
-    skos:definition "Immobile liberamente accessibile al pubblico senza necessità di autorizzazioni o limitazioni, nel rispetto degli orari e delle modalità stabilite."@it,
-        "Property freely accessible to the public without the need for authorization or restrictions, in compliance with established schedules and procedures."@en ;
-    dct:identifier "PUBB" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "PUBB" .
-
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/REGOL> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO REGOLAMENTATO"@it,
-        "REGULATED ACCESS"@en ;
-    skos:definition "Immobile accessibile previo rispetto di specifiche condizioni, procedure o requisiti documentali (prenotazione, biglietto, registrazione)."@it,
-        "Property accessible upon compliance with specific conditions, procedures or documentary requirements (booking, ticket, registration)."@en ;
-    dct:identifier "REGOL" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "REGOL" .
-
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/RISV> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO RISERVATO"@it,
-        "RESTRICTED ACCESS"@en ;
-    skos:definition "Immobile accessibile solo a personale autorizzato o a soggetti specificamente abilitati, con controlli all'ingresso."@it,
-        "Property accessible only to authorized personnel or specifically qualified persons, with entry controls."@en ;
-    dct:identifier "RISV" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "RISV" .
-
-<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/UNIV> a skos:Concept,
-        :TipoDiAccessoImmobile ;
-    skos:prefLabel "ACCESSO UNIVERSALE"@it,
-        "UNIVERSAL ACCESS"@en ;
-    skos:definition "Immobile progettato o adattato per garantire piena accessibilità a tutti, incluse persone con disabilità."@it,
-        "Property designed or adapted to ensure full accessibility to all, including people with disabilities."@en ;
-    dct:identifier "UNIV" ;
-    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
-    skos:notation "UNIV" .
+#################################################################
+#    distributions
+#################################################################
 
 <https://w3id.org/italia/real-estate/data/StateProperty/distribution/tipo-di-accesso-CSV> a dcatapit:Distribution ;
     dcat:accessURL <https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/controlled-vocabularies/tipo-di-accesso/latest> ;
@@ -244,5 +157,120 @@
     dct:license <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
     dct:title "Distribuzione XLSX del vocabolario controllato Vocabolario Controllato dei Tipi di Accesso"@it,
         "XLSX distribution of the Controlled Vocabulary for Access Types"@en .
+		
 
-### Serialized using the ttlser deterministic serializer v1.2.0
+#################################################################
+#    vocabulary body
+#################################################################
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/BARR> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO CON BARRIERE"@it,
+        "BARRIER ACCESS"@en ;
+    skos:definition "Immobile con presenza di barriere architettoniche che limitano o condizionano l'accessibilità."@it,
+        "Property with architectural barriers that limit or condition accessibility."@en ;
+    dct:identifier "BARR" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "BARR" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/COND> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO CONDIZIONATO"@it,
+        "CONDITIONAL ACCESS"@en ;
+    skos:definition "Immobile accessibile solo in presenza di determinate condizioni temporali, eventi o circostanze specifiche."@it,
+        "Property accessible only in the presence of certain temporal conditions, events or specific circumstances."@en ;
+    dct:identifier "COND" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "COND" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/EMERG> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO DI EMERGENZA"@it,
+        "EMERGENCY ACCESS"@en ;
+    skos:definition "Immobile con accesso consentito solo per motivi di emergenza, sicurezza o interventi urgenti."@it,
+        "Property with access allowed only for emergency reasons, security or urgent interventions."@en ;
+    dct:identifier "EMERG" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "EMERG" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/EVENTO> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO PER EVENTI"@it,
+        "EVENT ACCESS"@en ;
+    skos:definition "Immobile accessibile solo in occasione di eventi, manifestazioni o iniziative specifiche."@it,
+        "Property accessible only on the occasion of specific events, demonstrations or initiatives."@en ;
+    dct:identifier "EVENTO" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "EVENTO" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/GUIDATO> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO GUIDATO"@it,
+        "GUIDED ACCESS"@en ;
+    skos:definition "Immobile accessibile esclusivamente tramite visite guidate o accompagnamento di personale autorizzato."@it,
+        "Property accessible exclusively through guided tours or accompaniment by authorized personnel."@en ;
+    dct:identifier "GUIDATO" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "GUIDATO" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/ORARIO> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO CON ORARIO"@it,
+        "SCHEDULED ACCESS"@en ;
+    skos:definition "Immobile accessibile solo in specifiche fasce orarie predeterminate e comunicate al pubblico."@it,
+        "Property accessible only during specific predetermined time slots communicated to the public."@en ;
+    dct:identifier "ORARIO" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "ORARIO" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/PRIV> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO PRIVATO"@it,
+        "PRIVATE ACCESS"@en ;
+    skos:definition "Immobile a uso esclusivo, non accessibile al pubblico, riservato a specifici utenti o funzioni."@it,
+        "Property for exclusive use, not accessible to the public, reserved for specific users or functions."@en ;
+    dct:identifier "PRIV" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "PRIV" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/PUBB> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO PUBBLICO"@it,
+        "PUBLIC ACCESS"@en ;
+    skos:definition "Immobile liberamente accessibile al pubblico senza necessità di autorizzazioni o limitazioni, nel rispetto degli orari e delle modalità stabilite."@it,
+        "Property freely accessible to the public without the need for authorization or restrictions, in compliance with established schedules and procedures."@en ;
+    dct:identifier "PUBB" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "PUBB" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/REGOL> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO REGOLAMENTATO"@it,
+        "REGULATED ACCESS"@en ;
+    skos:definition "Immobile accessibile previo rispetto di specifiche condizioni, procedure o requisiti documentali (prenotazione, biglietto, registrazione)."@it,
+        "Property accessible upon compliance with specific conditions, procedures or documentary requirements (booking, ticket, registration)."@en ;
+    dct:identifier "REGOL" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "REGOL" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/RISV> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO RISERVATO"@it,
+        "RESTRICTED ACCESS"@en ;
+    skos:definition "Immobile accessibile solo a personale autorizzato o a soggetti specificamente abilitati, con controlli all'ingresso."@it,
+        "Property accessible only to authorized personnel or specifically qualified persons, with entry controls."@en ;
+    dct:identifier "RISV" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "RISV" .
+
+<https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/UNIV> a skos:Concept,
+        :TipoDiAccessoImmobile ;
+    skos:prefLabel "ACCESSO UNIVERSALE"@it,
+        "UNIVERSAL ACCESS"@en ;
+    skos:definition "Immobile progettato o adattato per garantire piena accessibilità a tutti, incluse persone con disabilità."@it,
+        "Property designed or adapted to ensure full accessibility to all, including people with disabilities."@en ;
+    dct:identifier "UNIV" ;
+    skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/tipo-di-accesso> ;
+    skos:notation "UNIV" .
+
+

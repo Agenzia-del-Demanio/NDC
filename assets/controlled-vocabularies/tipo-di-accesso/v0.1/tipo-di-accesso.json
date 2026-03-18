@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/BARR",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/BARR",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -12,7 +12,7 @@
     "label_en": "BARRIER ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/COND",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/COND",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -24,7 +24,7 @@
     "label_en": "CONDITIONAL ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/EMERG",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/EMERG",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -36,7 +36,7 @@
     "label_en": "EMERGENCY ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/EVENTO",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/EVENTO",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -48,7 +48,7 @@
     "label_en": "EVENT ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/GUIDATO",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/GUIDATO",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -60,7 +60,7 @@
     "label_en": "GUIDED ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/ORARIO",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/ORARIO",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -72,7 +72,7 @@
     "label_en": "SCHEDULED ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/PRIV",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/PRIV",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -84,7 +84,7 @@
     "label_en": "PRIVATE ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/PUBB",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/PUBB",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -96,7 +96,7 @@
     "label_en": "PUBLIC ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/REGOL",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/REGOL",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -108,7 +108,7 @@
     "label_en": "REGULATED ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/RISV",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/RISV",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"
@@ -120,7 +120,7 @@
     "label_en": "RESTRICTED ACCESS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDiAccessoImmobile/UNIV",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoAccessoImmobile/UNIV",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDiAccessoImmobile"

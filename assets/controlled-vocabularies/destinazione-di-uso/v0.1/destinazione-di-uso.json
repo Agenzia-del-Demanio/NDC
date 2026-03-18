@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/AGR",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/AGR",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -12,7 +12,7 @@
     "label_en": "AGRICULTURAL"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/COM",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/COM",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -24,7 +24,7 @@
     "label_it": "COMMERCIALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/CUL",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/CUL",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -36,7 +36,7 @@
     "label_it": "CULTURALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/DEP",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/DEP",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -48,7 +48,7 @@
     "label_en": "STORAGE/WAREHOUSE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IND",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/IND",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -60,7 +60,7 @@
     "label_it": "INDUSTRIALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/IST",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/IST",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -72,7 +72,7 @@
     "label_it": "ISTITUZIONALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/RES",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/RES",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -84,7 +84,7 @@
     "label_it": "RESIDENZIALE"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SAN",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/SAN",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -96,7 +96,7 @@
     "label_it": "SANITARIO"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/SCO",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/SCO",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
@@ -108,7 +108,7 @@
     "label_it": "SCOLASTICO"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneDiUsoImmobile/UFF",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/UFF",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
