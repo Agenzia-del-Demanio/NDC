@@ -720,7 +720,7 @@ With regard to state-owned property (Article 822 of the Italian Civil Code), the
         <dct:title xml:lang="it">Distribuzione RDF/XML dell&apos;ontologia dei beni immobili dello Stato</dct:title>
         <dct:title xml:lang="en">RDF/XML distribution of State-Owned Real Estate Assets Ontology</dct:title>
         <dcat:accessURL rdf:resource="https://github.com/Agenzia-del-Demanio/NDC/tree/main/assets/ontologies/StateProperty/latest"/>
-        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/ontologies/StateProperty/latest/StateProperty.rdf"/>
+        <dcat:downloadURL rdf:resource="https://raw.githubusercontent.com/Agenzia-del-Demanio/NDC/main/assets/ontologies/StateProperty/latest/StateProperty.owl"/>
     </owl:NamedIndividual>
     
 
