@@ -1,122 +1,458 @@
 [
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/AGR",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/01",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "AGR",
-    "definition_it": "Immobile destinato ad attivit\u00e0 agricole, zootecniche o agrituristiche.",
-    "definition_en": "Property intended for agricultural, livestock or agritourism activities.",
-    "label_it": "AGRICOLO",
-    "label_en": "AGRICULTURAL"
+    "id": "01",
+    "definition_it": "Immobile destinato ad uso residenziale",
+    "definition_en": "Property intended for residential use",
+    "label_it": "RESIDENZIALE",
+    "label_en": "RESIDENTIAL"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/COM",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/02",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "COM",
-    "definition_it": "Immobile destinato ad attivit\u00e0 commerciali, di vendita al dettaglio o all'ingrosso.",
-    "definition_en": "Property intended for commercial activities, retail or wholesale.",
-    "label_en": "COMMERCIAL",
-    "label_it": "COMMERCIALE"
+    "id": "02",
+    "definition_it": "Immobile destinato ad uso commerciale",
+    "definition_en": "Property intended for commercial use",
+    "label_it": "COMMERCIALE",
+    "label_en": "COMMERCIAL"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/CUL",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/03",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "CUL",
-    "definition_it": "Immobile destinato ad attivit\u00e0 culturali, museali, bibliotecarie o di spettacolo.",
-    "definition_en": "Property intended for cultural, museum, library or entertainment activities.",
-    "label_en": "CULTURAL",
-    "label_it": "CULTURALE"
+    "id": "03",
+    "definition_it": "Immobile destinato ad uso terziario e direzionale",
+    "definition_en": "Property intended for tertiary and managerial use",
+    "label_it": "TERZIARIO - DIREZIONALE",
+    "label_en": "TERTIARY - MANAGERIAL"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/DEP",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/04",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "DEP",
-    "definition_it": "Immobile destinato allo stoccaggio, deposito merci o logistica.",
-    "definition_en": "Property intended for storage, goods warehousing or logistics.",
-    "label_it": "DEPOSITO/MAGAZZINO",
-    "label_en": "STORAGE/WAREHOUSE"
+    "id": "04",
+    "definition_it": "Immobile destinato ad uso logistico e produttivo",
+    "definition_en": "Property intended for logistics and production use",
+    "label_it": "LOGISTICO - PRODUTTIVO",
+    "label_en": "LOGISTICS - PRODUCTION"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/IND",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/05",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "IND",
-    "definition_it": "Immobile destinato ad attivit\u00e0 produttive, manifatturiere o artigianali.",
-    "definition_en": "Property intended for production, manufacturing or craft activities.",
-    "label_en": "INDUSTRIAL",
-    "label_it": "INDUSTRIALE"
+    "id": "05",
+    "definition_it": "Immobile destinato ad uso culturale",
+    "definition_en": "Property intended for cultural use",
+    "label_it": "CULTURALE",
+    "label_en": "CULTURAL"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/IST",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/06",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "IST",
-    "definition_it": "Immobile destinato a funzioni pubbliche, amministrative o di servizio pubblico.",
-    "definition_en": "Property intended for public, administrative or public service functions.",
-    "label_en": "INSTITUTIONAL",
-    "label_it": "ISTITUZIONALE"
+    "id": "06",
+    "definition_it": "Immobile destinato ad uso sportivo",
+    "definition_en": "Property intended for sports use",
+    "label_it": "SPORTIVO",
+    "label_en": "SPORTS"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/RES",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/07",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "RES",
-    "definition_it": "Immobile destinato ad abitazione civile e a servizi connessi alla residenza.",
-    "definition_en": "Property intended for residential housing and related services.",
-    "label_en": "RESIDENTIAL",
-    "label_it": "RESIDENZIALE"
+    "id": "07",
+    "definition_it": "Immobile destinato ad uso ludico e ricreativo",
+    "definition_en": "Property intended for recreational use",
+    "label_it": "LUDICO - RICREATIVO",
+    "label_en": "RECREATIONAL"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/SAN",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/08",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "SAN",
-    "definition_it": "Immobile destinato a strutture sanitarie, assistenziali o socio-sanitarie.",
-    "definition_en": "Property intended for healthcare, care or social-health facilities.",
-    "label_en": "HEALTHCARE",
-    "label_it": "SANITARIO"
+    "id": "08",
+    "definition_it": "Immobile destinato ad uso turistico e ricettivo",
+    "definition_en": "Property intended for tourism and hospitality use",
+    "label_it": "TURISTICO - RICETTIVO",
+    "label_en": "TOURISM - HOSPITALITY"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/SCO",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/09",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "SCO",
-    "definition_it": "Immobile destinato a istruzione, formazione e attivit\u00e0 educative.",
-    "definition_en": "Property intended for education, training and educational activities.",
-    "label_en": "EDUCATIONAL",
-    "label_it": "SCOLASTICO"
+    "id": "09",
+    "definition_it": "Immobile destinato alla ristorazione",
+    "definition_en": "Property intended for catering and food service",
+    "label_it": "RISTORAZIONE",
+    "label_en": "CATERING"
   },
   {
-    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/UFF",
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/10",
     "@type": [
       "skos:Concept",
       "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
     ],
-    "id": "UFF",
-    "definition_it": "Immobile destinato ad attivit\u00e0 amministrative, direzionali e professionali.",
-    "definition_en": "Property intended for administrative, management and professional activities.",
-    "label_en": "OFFICES",
-    "label_it": "UFFICI"
+    "id": "10",
+    "definition_it": "Immobile destinato a servizi",
+    "definition_en": "Property intended for services",
+    "label_it": "SERVIZI",
+    "label_en": "SERVICES"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/11",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "11",
+    "definition_it": "Immobile destinato ad uso militare",
+    "definition_en": "Property intended for military use",
+    "label_it": "MILITARE",
+    "label_en": "MILITARY"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/12",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "12",
+    "definition_it": "Immobile destinato a luogo di culto",
+    "definition_en": "Property intended as a place of worship",
+    "label_it": "LUOGO DI CULTO",
+    "label_en": "PLACE OF WORSHIP"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/13",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "13",
+    "definition_it": "Immobile destinato ad attrezzatura tecnologica",
+    "definition_en": "Property intended for technological equipment",
+    "label_it": "ATTREZZATURA TECNOLOGICA",
+    "label_en": "TECHNOLOGICAL EQUIPMENT"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/14",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "14",
+    "definition_it": "Immobile destinato ad uso speciale",
+    "definition_en": "Property intended for special use",
+    "label_it": "USO SPECIALE",
+    "label_en": "SPECIAL USE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/15",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "15",
+    "definition_it": "Immobile con destinazione d'uso mista",
+    "definition_en": "Property with mixed use destination",
+    "label_it": "MISTO",
+    "label_en": "MIXED USE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/16",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "16",
+    "definition_it": "Area destinata a cava, miniera o torbiera",
+    "definition_en": "Area intended for quarry, mine or peat bog",
+    "label_it": "CAVA/MINIERA/TORBIERA",
+    "label_en": "QUARRY/MINE/PEAT BOG"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/17",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "17",
+    "definition_it": "Area con resti o sito archeologico",
+    "definition_en": "Area with archaeological remains or site",
+    "label_it": "RESTO/SITO ARCHEOLOGICO",
+    "label_en": "ARCHAEOLOGICAL REMAINS/SITE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/18",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "18",
+    "definition_it": "Opere infrastrutturali",
+    "definition_en": "Infrastructure works",
+    "label_it": "OPERE INFRASTRUTTURALI",
+    "label_en": "INFRASTRUCTURE WORKS"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/19",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "19",
+    "definition_it": "Immobile monumentale",
+    "definition_en": "Monumental property",
+    "label_it": "MONUMENTO",
+    "label_en": "MONUMENT"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/20",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "20",
+    "definition_it": "Strade o piazze",
+    "definition_en": "Streets or squares",
+    "label_it": "STRADA O PIAZZE",
+    "label_en": "STREET OR SQUARE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/21",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "21",
+    "definition_it": "Area cimiteriale",
+    "definition_en": "Cemetery area",
+    "label_it": "CIMITERO",
+    "label_en": "CEMETERY"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/22",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "22",
+    "definition_it": "Area destinata a parcheggio",
+    "definition_en": "Area intended for parking",
+    "label_it": "PARCHEGGIO",
+    "label_en": "PARKING"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/23",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "23",
+    "definition_it": "Immobile carcerario",
+    "definition_en": "Prison property",
+    "label_it": "CARCERE",
+    "label_en": "PRISON"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/24",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "24",
+    "definition_it": "Immobile destinato a ospedale o casa di cura",
+    "definition_en": "Property intended for hospital or nursing home",
+    "label_it": "OSPEDALE/CASA DI CURA",
+    "label_en": "HOSPITAL/NURSING HOME"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/25",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "25",
+    "definition_it": "Immobile museale",
+    "definition_en": "Museum property",
+    "label_it": "MUSEO",
+    "label_en": "MUSEUM"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/26",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "26",
+    "definition_it": "Immobile scolastico",
+    "definition_en": "School property",
+    "label_it": "SCUOLA",
+    "label_en": "SCHOOL"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/27",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "27",
+    "definition_it": "Ricovero antiaereo",
+    "definition_en": "Air raid shelter",
+    "label_it": "RICOVERO ANTIAEREO",
+    "label_en": "AIR RAID SHELTER"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/28",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "28",
+    "definition_it": "Cabina elettrica",
+    "definition_en": "Electrical substation",
+    "label_it": "CABINA ELETTRICA",
+    "label_en": "ELECTRICAL SUBSTATION"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/29",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "29",
+    "definition_it": "Stabilimento balneare",
+    "definition_en": "Bathing establishment",
+    "label_it": "STABILIMENTO BALNEARE",
+    "label_en": "BATHING ESTABLISHMENT"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/30",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "30",
+    "definition_it": "Faro",
+    "definition_en": "Lighthouse",
+    "label_it": "FARO",
+    "label_en": "LIGHTHOUSE"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/31",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "31",
+    "definition_it": "Area aeroportuale",
+    "definition_en": "Airport area",
+    "label_it": "AEROPORTO",
+    "label_en": "AIRPORT"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/32",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "32",
+    "definition_it": "Area edificabile",
+    "definition_en": "Buildable area",
+    "label_it": "AREA EDIFICABILE",
+    "label_en": "BUILDABLE AREA"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/33",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "33",
+    "definition_it": "Area demaniale con costruzione di terzi",
+    "definition_en": "State property area with third-party construction",
+    "label_it": "AREA DEMANIALE CON COSTRUZIONE DI TERZI",
+    "label_en": "STATE PROPERTY AREA WITH THIRD-PARTY CONSTRUCTION"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/34",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "34",
+    "definition_it": "Area coltivata",
+    "definition_en": "Cultivated area",
+    "label_it": "AREA COLTIVATA",
+    "label_en": "CULTIVATED AREA"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/35",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "35",
+    "definition_it": "Area incolta",
+    "definition_en": "Uncultivated area",
+    "label_it": "AREA INCOLTA",
+    "label_en": "UNCULTIVATED AREA"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/36",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "36",
+    "definition_it": "Giardino o parco",
+    "definition_en": "Garden or park",
+    "label_it": "GIARDINO/PARCO",
+    "label_en": "GARDEN/PARK"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/37",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "37",
+    "definition_it": "Foresta o bosco",
+    "definition_en": "Forest or wood",
+    "label_it": "FORESTA/BOSCO",
+    "label_en": "FOREST/WOOD"
+  },
+  {
+    "url": "https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoDestinazioneUsoImmobile/ND",
+    "@type": [
+      "skos:Concept",
+      "https://w3id.org/italia/real-estate/onto/StateProperty/TipoDestinazioneDiUsoImmobile"
+    ],
+    "id": "ND",
+    "definition_it": "Destinazione d'uso non definita",
+    "definition_en": "Intended use not defined",
+    "label_it": "NON DEFINITO",
+    "label_en": "NOT DEFINED"
   }
 ]
