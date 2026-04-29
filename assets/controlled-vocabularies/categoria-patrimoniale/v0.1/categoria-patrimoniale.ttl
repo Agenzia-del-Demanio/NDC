@@ -276,9 +276,9 @@
 
 <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/TipoCategoriaPatrimonialeImmobile/NDEF> a skos:Concept,
         :TipoCategoriaPatrimonialeImmobile ;
-    skos:prefLabel "NON DEFINITO"@it,
+    skos:prefLabel "NON DEFINITA"@it,
         "NOT DEFINED"@en ;
-    skos:definition "Non definito."@it,
+    skos:definition "Non definita."@it,
         "Not defined."@en ;
     dct:identifier "NDEF" ;
     skos:inScheme <https://w3id.org/italia/real-estate/controlled-vocabulary/StateProperty/categoria-patrimoniale> ;
